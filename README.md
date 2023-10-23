@@ -14,3 +14,15 @@ docker-compose up -d
 ```
 docker-compose exec laravel.test php artisan migrate
 ```
+
+## Como criar migrations:
+1. Execute o seguinte comando:
+```
+docker-compose exec laravel.test php artisan make:migration create_users_table
+```
+
+## Como acessar o container:
+1. Execute o seguinte comando:
+```
+docker-compose exec laravel.test bash
+```
