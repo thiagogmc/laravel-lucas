@@ -1,0 +1,22 @@
+.main__cta{
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.main__cta h1 img{
+    height: 250px;
+    width: 250px;
+}
+
+.main__cta h2{
+    color: rgb(255, 179, 42);
+    font-size: 60px;
+}
+
+.main__cta p{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}

@@ -1,0 +1,15 @@
+button {
+    width: 50%;
+    height: 20px;
+    cursor: pointer;
+    border: 10;
+    border-radius: 20px;
+}
+
+button.edit {
+    background-color: yellow;
+}
+
+button.delete {
+    background-color: red;
+}

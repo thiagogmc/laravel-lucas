@@ -26,3 +26,15 @@ docker-compose exec laravel.test php artisan make:migration create_users_table
 ```
 docker-compose exec laravel.test bash
 ```
+
+## Como criar o controller:
+1. Execute o seguinte comando:
+```
+docker-compose exec laravel.test php artisan make:controller UserController
+```
+
+## Como apagar o banco inteiro (drop all tables) e recriar novamente:
+1. Execute o seguinte comando:
+```
+docker-compose exec laravel.test php artisan migrate:fresh
+```
